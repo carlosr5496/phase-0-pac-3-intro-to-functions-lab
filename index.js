@@ -1,0 +1,20 @@
+function shout(string) {
+return string.toUpperCase();
+}
+function whisper(string) {
+    return  string.toLowerCase();
+}
+function logShout(string) {
+    console.log (string.toUpperCase(string));
+}
+function logWhisper(string) {
+    console.log (string.toLowerCase(string));
+}
+function sayHiToHeadphonedRoommate(string) {
+if (string === string.toLowerCase(string))
+return ("I can't hear you!") 
+else if (string === string.toUpperCase(string))
+return ("YES INDEED!")
+else 
+return ("I would love to!");
+}
